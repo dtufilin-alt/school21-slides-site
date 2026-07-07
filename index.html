@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Школа 21 — проектирование презентаций</title>
+  <meta name="description" content="Рабочий сайт для сборки и демонстрации презентаций для Школы 21: структура, материалы, сценарий занятия и контроль качества слайдов." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Школа 21 — к началу страницы">
+      <span>Школа 21</span>
+    </a>
+    <nav class="top-nav" aria-label="Навигация по сайту">
+      <a href="#concept">Концепция</a>
+      <a href="#structure">Структура</a>
+      <a href="#timeline">План</a>
+      <a href="#materials">Материалы</a>
+      <a href="#quality">QA</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow">рабочая сборка · презентации · обучение</div>
+          <h1>Сайт-сосуд для презентаций Школы 21</h1>
+          <p class="lead">Единая витрина для подготовки выступления: смысловая рамка, структура слайдов, блок материалов, маршрут сборки и быстрый контроль качества.</p>
+          <p>Дизайн опирается на официальный сине-бирюзовый визуальный язык: светлая база, аккуратные карточки, dashboard-hero, понятная навигация и адаптивная сетка.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#structure">Смотреть структуру</a>
+            <a class="button secondary" href="#materials">К материалам</a>
+          </div>
+        </div>
+
+        <aside class="dashboard-card" aria-label="Панель состояния проекта">
+          <div class="hero-decoration" aria-hidden="true"></div>
+          <div class="dashboard-header">
+            <div class="eyebrow">project dashboard</div>
+            <h2 class="dashboard-title">Сборка презентации</h2>
+            <p>От идеи и тезисов — к готовому набору слайдов и материалам для показа.</p>
+          </div>
+          <div class="dashboard-metrics">
+            <div class="dashboard-metric"><strong>01</strong><span>Смысловая рамка и аудитория</span></div>
+            <div class="dashboard-metric"><strong>02</strong><span>Логика рассказа и скелет слайдов</span></div>
+            <div class="dashboard-metric"><strong>03</strong><span>Визуальный слой и финальная проверка</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="concept">
+      <div class="section-heading">
+        <div class="eyebrow">концепция</div>
+        <h2>Не просто набор слайдов, а управляемый сценарий занятия</h2>
+        <p>Сайт фиксирует рабочую архитектуру: что хотим объяснить, в какой последовательности, какими примерами и как поймём, что материал готов к демонстрации.</p>
+      </div>
+      <div class="about-grid">
+        <article class="about-card">
+          <h3>Для кого</h3>
+          <p>Для команды, которая собирает, ревьюит и показывает материалы для Школы 21: авторы, редакторы, дизайнеры и докладчик видят одну карту проекта.</p>
+        </article>
+        <article class="about-card">
+          <h3>Что решает</h3>
+          <p>Убирает хаос из файлов и правок: тезисы, структура, источники, контрольные вопросы и финальные материалы собираются в одном месте.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section accent-panel" id="structure">
+      <div class="section-heading">
+        <div class="eyebrow">структура</div>
+        <h2>Предлагаемый каркас презентации</h2>
+        <p>Блоки можно менять под конкретную тему, но логика должна сохраняться: контекст → проблема → разбор → практика → вывод.</p>
+      </div>
+      <div class="cards four">
+        <article class="card activity-card featured-card">
+          <span class="activity-number">01</span>
+          <span class="activity-marker" aria-hidden="true"></span>
+          <h3>Зачем это важно</h3>
+          <p>Короткое открытие: проблема, ценность для слушателя, обещание занятия.</p>
+        </article>
+        <article class="card activity-card">
+          <span class="activity-number">02</span>
+          <span class="activity-marker" aria-hidden="true"></span>
+          <h3>Как устроено</h3>
+          <p>Модель, схема, ключевые понятия и связи между ними.</p>
+        </article>
+        <article class="card activity-card">
+          <span class="activity-number">03</span>
+          <span class="activity-marker" aria-hidden="true"></span>
+          <h3>Как применять</h3>
+          <p>Примеры, упражнения, типовые ошибки и разбор решений.</p>
+        </article>
+        <article class="card activity-card">
+          <span class="activity-number">04</span>
+          <span class="activity-marker" aria-hidden="true"></span>
+          <h3>Что забрать</h3>
+          <p>Итоговые правила, чек-лист, ссылки и следующий шаг.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Метрики готовности">
+      <div class="metrics">
+        <article class="metric metric-date"><strong>4</strong><span>ключевых смысловых блока</span></article>
+        <article class="metric"><strong>12–18</strong><span>оптимальный диапазон слайдов</span></article>
+        <article class="metric metric-percent"><strong>80%</strong><span>времени — на объяснение и примеры</span></article>
+        <article class="metric"><strong>1</strong><span>финальный чек-лист перед показом</span></article>
+      </div>
+    </section>
+
+    <section class="section tinted" id="timeline">
+      <div class="section-heading">
+        <div class="eyebrow">маршрут</div>
+        <h2>План сборки версии</h2>
+        <p>Чтобы не расползаться, каждая итерация проходит один и тот же путь.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-line" aria-hidden="true"></div>
+        <article class="timeline-item">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <div class="timeline-card"><h3>1. Смысловой бриф</h3><p>Тема, аудитория, длительность, главный вывод и ограничения.</p></div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <div class="timeline-card"><h3>2. Сценарий рассказа</h3><p>Последовательность блоков, переходы, вопросы к аудитории и места для примеров.</p></div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <div class="timeline-card"><h3>3. Сборка слайдов</h3><p>Текстовые тезисы, схемы, визуальные акценты и единый стиль.</p></div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <div class="timeline-card"><h3>4. Финальное ревью</h3><p>Проверка логики, языка, визуального шума, мобильного/экранного отображения.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section materials-cta" id="materials">
+      <div class="materials-content">
+        <div class="eyebrow">материалы</div>
+        <h2>Зона для рабочих файлов и финальных версий</h2>
+        <p>Сюда можно подключить презентации, PDF, исходники, заметки докладчика и дополнительные материалы. Сейчас это каркас, готовый к наполнению.</p>
+      </div>
+      <div class="materials-categories" aria-label="Категории материалов">
+        <article class="material-category-card"><span class="category-marker" aria-hidden="true"></span><h3>Презентации</h3></article>
+        <article class="material-category-card"><span class="category-marker" aria-hidden="true"></span><h3>Источники</h3></article>
+        <article class="material-category-card"><span class="category-marker" aria-hidden="true"></span><h3>Заметки</h3></article>
+      </div>
+    </section>
+
+    <section class="section" id="quality">
+      <div class="section-heading">
+        <div class="eyebrow">контроль качества</div>
+        <h2>Перед публикацией версия должна пройти простой чек</h2>
+      </div>
+      <div class="result-list">
+        <article class="result-card"><span class="result-check">✓</span><p>Один главный вывод считывается из первого экрана и финального блока.</p></article>
+        <article class="result-card"><span class="result-check">✓</span><p>Каждый слайд отвечает на вопрос: зачем он нужен слушателю.</p></article>
+        <article class="result-card"><span class="result-check">✓</span><p>Нет перегруза текстом: сложные идеи вынесены в схемы или устное объяснение.</p></article>
+        <article class="result-card"><span class="result-check">✓</span><p>Визуальный стиль единый: цвета, карточки, типографика, отступы и акценты.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Школа 21 · рабочий сайт презентационных материалов</p>
+    <nav class="footer-nav" aria-label="Нижняя навигация">
+      <a href="#top">Наверх</a>
+      <a href="#structure">Структура</a>
+      <a href="#quality">QA</a>
+    </nav>
+  </footer>
+</body>
+</html>
